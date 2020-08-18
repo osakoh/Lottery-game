@@ -2,10 +2,10 @@
 
 ### Requirements
 ---
-1. User can pick 6 numbers
-2. Lottery calculates 6 random numbers between 1 & 20
-3. Match users numbers to lottery numbers
-4. Calculate users winnings based on how many numbers were matched correctly
+1. User enters 6 numbers.
+2. Lottery calculates 6 random numbers between 1 & 20.
+3. Match users numbers to lottery numbers.
+4. Calculate users winnings based on how many numbers were matched correctly.
 ---
 
 #### Built using:
@@ -14,3 +14,5 @@
 * While loop
 * Split()
 
+*#### Screenshot*
+![](screenshot.png)

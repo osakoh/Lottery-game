@@ -2,17 +2,18 @@
 
 ### Requirements
 ---
-1. User enters 6 numbers.
-2. Lottery calculates 6 random numbers between 1 & 20.
-3. Match users numbers to lottery numbers.
-4. Calculate users winnings based on how many numbers were matched correctly.
+- [x] User can enter 6 numbers
+- [x] Lottery calculates 6 random numbers between 1 & 20.
+- [x] Match users numbers to lottery numbers.
+- [x] Calculate users winnings based on how many numbers were matched correctly.
 ---
 
-#### Built using:
+##### Built using:
+* Random Module
 * Functions
 * Set comprehension
 * While loop
 * Split()
 
-*#### Screenshot*
+*Screenshot* 
 ![](screenshot.png)

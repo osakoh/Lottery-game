@@ -10,13 +10,13 @@ def menu():
     lottery_numbers = create_lottery_numbers()
 
     numbers_matched = user_numbers.intersection(lottery_numbers)
-    print("You matched {} numbers: {}\n".format(len(numbers_matched), numbers_matched))
+    print("You matched {}: {}\n".format(len(numbers_matched), numbers_matched))
     print("Amount won: £{}".format(100**len(numbers_matched)))  # 100^len(numbers_matched)
 
 
 # get six numbers from user
 def get_player_numbers():
-    input_csv = input("Enter 6 numbers separated by commas: ")
+    input_csv = input("Enter 6 numbers (between 1 & 20) separated by commas: ")
     number_list = input_csv.split(",")
 
     # number_set = set()

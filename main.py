@@ -4,6 +4,16 @@
 import random
 
 
+def menu():
+    user_numbers = get_player_numbers()
+
+    lottery_numbers = create_lottery_numbers()
+
+    numbers_matched = user_numbers.intersection(lottery_numbers)
+    print("You matched {} numbers: {}\n".format(len(numbers_matched), numbers_matched))
+    print("Amount won: £{}".format(100**len(numbers_matched)))  # 100^len(numbers_matched)
+
+
 # get six numbers from user
 def get_player_numbers():
     input_csv = input("Enter 6 numbers separated by commas: ")
@@ -29,5 +39,5 @@ def create_lottery_numbers():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(create_lottery_numbers())
+    menu()
 
